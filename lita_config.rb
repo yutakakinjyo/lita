@@ -24,6 +24,9 @@ Lita.configure do |config|
   config.adapters.twitter.access_token        = ENV['ACCESS_TOKEN']
   config.adapters.twitter.access_token_secret = ENV['ACCESS_TOKEN_SECRET']
 
+  config.redis[:url] = ENV["REDISTOGO_URL"]
+  config.http.port   = ENV["PORT"]
+
   ## Example: Set options for the chosen adapter.
   # config.adapter.username = "myname"
   # config.adapter.password = "secret"

@@ -17,7 +17,12 @@ Lita.configure do |config|
 
   # The adapter you want to connect with. Make sure you've added the
   # appropriate gem to the Gemfile.
-  config.robot.adapter = :shell
+  config.robot.adapter = :twitter
+
+  config.adapters.twitter.api_key             = ENV['API_KEY']
+  config.adapters.twitter.api_secret          = ENV['API_SECRET']
+  config.adapters.twitter.access_token        = ENV['ACCESS_TOKEN']
+  config.adapters.twitter.access_token_secret = ENV['ACCESS_TOKEN_SECRET']
 
   ## Example: Set options for the chosen adapter.
   # config.adapter.username = "myname"

@@ -1,0 +1,17 @@
+{
+  "name": "lita",
+  "description": "lita bot to slack",
+  "keywords": ["lita", "slack", "ruby"],
+  "repository": "https://github.com/yutakakinjyo/lita",
+  "env": {
+    "SLACK_TOKEN": {
+      "description": "slack api token",
+      "value": ""
+    },
+    "TZ": {
+      "description": "TimeZone",
+      "value": "Asia/Tokyo"
+    },
+  },
+  "addons": ["redistogo"]
+}

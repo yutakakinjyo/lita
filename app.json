@@ -2,7 +2,6 @@
   "name": "Lita",
   "description": "Lita for Slack", "repository": "https://github.com/yutakakinjyo/lita",
   "keywords": ["lita", "slack", "ruby"],
-  "website": "",
   "env": {
     "TZ": {
       "descirption": "Timezone",

@@ -1,7 +1,7 @@
 {
   "name": "lita",
   "description": "lita bot to slack",
-  "keywords": ["lita", "bot", "ruby"],
+  "keywords": ["lita", "slack", "ruby"],
   "repository": "https://github.com/yutakakinjyo/lita",
   "env": {
     "SLACK_TOKEN": {
@@ -9,7 +9,7 @@
       "value": ""
     },
     "TZ": {
-      "description": "TimeZone"
+      "description": "TimeZone",
       "value": "Asia/Tokyo"
     },
   },

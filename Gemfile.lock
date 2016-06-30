@@ -36,7 +36,7 @@ GEM
     multi_json (1.12.1)
     multipart-post (2.0.0)
     puma (3.4.0)
-    rack (1.6.4)
+    rack (2.0.1)
     rb-readline (0.5.3)
     redis (3.3.0)
     redis-namespace (1.5.2)
